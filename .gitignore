@@ -121,3 +121,4 @@ dist
 /apps/www/.cache
 
 
+prisma/dev.db
