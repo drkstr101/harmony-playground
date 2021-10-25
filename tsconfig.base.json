@@ -8,16 +8,17 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "target": "es2015",
+    "target": "es2018",
     "module": "esnext",
-    "lib": ["es2017", "dom"],
+    "lib": ["es2018", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
       "@watheia/api.model.schema": ["libs/api/model/schema/src/index.ts"],
-      "@watheia/layout": ["libs/layout/src/index.ts"],
-      "@watheia/theme": ["libs/theme/src/index.ts"]
+      "@watheia/app.gatsby.top-layout": ["libs/gatsby/top-layout/src/index.ts"],
+      "@waweb/layout": ["libs/layout/src/index.ts"],
+      "@waweb/theme": ["libs/theme/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

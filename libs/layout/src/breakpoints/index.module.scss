@@ -1,0 +1,11 @@
+@import url("./_breakpoints.scss");
+
+.breakpoints {
+  --breakpoint-xs: #{$br-xs};
+  --breakpoint-sm: #{$br-sm};
+  --breakpoint-md: #{$br-md};
+  --breakpoint-l: #{$br-l};
+  --breakpoint-lg: #{$br-lg};
+  --breakpoint-xl: #{$br-xl};
+  --breakpoint-xxl: #{$br-xxl};
+}

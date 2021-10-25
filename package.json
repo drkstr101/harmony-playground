@@ -9,10 +9,12 @@
   },
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/material": "^5.0.0",
     "@adobe/focus-ring-polyfill": "^0.1.5",
     "@adobe/gatsby-source-github-file-contributors": "^0.3.1",
     "@adobe/prism-adobe": "^1.0.3",
-    "@emotion/react": "^11.4.1",
     "@loadable/component": "^5.14.1",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",

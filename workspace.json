@@ -3,6 +3,7 @@
   "projects": {
     "api": "apps/api",
     "api-model-schema": "libs/api/model/schema",
+    "gatsby-top-layout": "libs/gatsby/top-layout",
     "layout": "libs/layout",
     "theme": "libs/theme",
     "www": "apps/www",

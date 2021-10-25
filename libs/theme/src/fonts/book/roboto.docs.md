@@ -8,7 +8,7 @@ description: "RobotoMono font"
 This component envelope the signature "CircularPro book" font of Bit projects.
 
 ```tsx
-import { bookFont } from "@teambit/base-ui.theme.fonts.book"
+import { bookFont } from "@watheia/app.theme.fonts.book"
 
 function ClientContext({ children }) {
   return (

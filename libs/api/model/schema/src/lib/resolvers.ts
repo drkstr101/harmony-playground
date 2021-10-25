@@ -1,9 +1,5 @@
 import { DateTimeResolver } from "graphql-scalars"
-import { Context } from "./Context"
-import { PostCreateInput } from "./PostCreateInput"
-import { PostOrderByUpdatedAtInput } from "./PostOrderByUpdatedAtInput"
-import { UserCreateInput } from "./UserCreateInput"
-import { UserUniqueInput } from "./UserUniqueInput"
+import { Context, PostCreateInput, PostOrderByUpdatedAtInput, UserCreateInput, UserUniqueInput } from "./types"
 
 export default {
   Query: {

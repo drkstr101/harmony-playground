@@ -1,0 +1,34 @@
+{
+  "root": "libs/gatsby/top-layout",
+  "sourceRoot": "libs/gatsby/top-layout/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/node:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/gatsby/top-layout",
+        "tsConfig": "libs/gatsby/top-layout/tsconfig.lib.json",
+        "packageJson": "libs/gatsby/top-layout/package.json",
+        "main": "libs/gatsby/top-layout/src/index.ts",
+        "assets": ["libs/gatsby/top-layout/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/gatsby/top-layout/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/gatsby/top-layout"],
+      "options": {
+        "jestConfig": "libs/gatsby/top-layout/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

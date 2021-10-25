@@ -40,6 +40,9 @@
     "policy": {
       "dependencies": {},
       "peerDependencies": {
+        "@emotion/react": "^11.5.0",
+        "@emotion/styled": "^11.3.0",
+        "@mui/material": "^5.0.0",
         "core-js": "^3.6.5",
         "gatsby": "^3.14.0",
         "prop-types": "^15.7.2",
@@ -50,7 +53,12 @@
         "tslib": "^2.0.0",
         "webpack": "~5.53.0"
       }
-    }
+    },
+    "packageManagerArgs": [],
+    "devFilePatterns": ["**/*.spec.ts"],
+    "strictPeerDependencies": true,
+    "installFromBitDevRegistry": true,
+    "savePrefix": ""
   },
   /**
    * workspace variants allow to set different subsets of configuration for components in your
@@ -67,7 +75,8 @@
       /**
        * uncomment to apply the chosen environment on all components.
        **/
-      // "teambit.react/react": { }
+      "teambit.react/react": {},
+      "defaultScope": "watheia.app"
     }
   }
 }

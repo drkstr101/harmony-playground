@@ -9,11 +9,125 @@
  */
 
 {
-    "ui/atoms/button": {
+    "layout/align": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "components/app/ui/atoms/button"
+        "rootDir": "libs/layout/src/align"
+    },
+    "layout/breakpoints": {
+        "scope": "",
+        "version": "",
+        "mainFile": "_breakpoints.scss",
+        "rootDir": "libs/layout/src/breakpoints"
+    },
+    "layout/col-span": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/layout/src/col-span"
+    },
+    "layout/grid-component": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/layout/src/grid-component"
+    },
+    "layout/grid-presets/four-way-grid": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/layout/src/grid-presets/four-way-grid"
+    },
+    "layout/grid-presets/z-grid": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/layout/src/grid-presets/z-grid"
+    },
+    "layout/page-frame": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/layout/src/page-frame"
+    },
+    "layout/top-layout": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/layout/src/top-layout"
+    },
+    "theme/brand-definition": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/brand-definition"
+    },
+    "theme/brands": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/brands"
+    },
+    "theme/color-definition": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/color-definition"
+    },
+    "theme/evangelist-theme": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.tsx",
+        "rootDir": "libs/theme/src/evangelist-theme"
+    },
+    "theme/fonts/book": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/fonts/book"
+    },
+    "theme/fonts/icons-font": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/fonts/icons-font"
+    },
+    "theme/fonts/roboto": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/fonts/roboto"
+    },
+    "theme/heading-margin-definition": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/heading-margin-definition"
+    },
+    "theme/theme-options": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/theme-options"
+    },
+    "theme/shadow-definition": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/shadow-definition"
+    },
+    "theme/size-definition": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/theme/src/size-definition"
+    },
+    "theme/theme-provider": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.tsx",
+        "rootDir": "libs/theme/src/theme-provider"
     },
     "$schema-version": "14.9.0"
 }

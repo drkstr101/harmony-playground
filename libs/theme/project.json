@@ -12,7 +12,7 @@
         "tsConfig": "libs/theme/tsconfig.lib.json",
         "project": "libs/theme/package.json",
         "entryFile": "libs/theme/src/index.ts",
-        "external": ["react/jsx-runtime"],
+        "external": ["@babel/runtime", "core-js", "react", "react-dom", "react-is", "react/jsx-runtime"],
         "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
         "assets": [
           {

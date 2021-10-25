@@ -1,13 +1,14 @@
 import classNames from "classnames"
 import React from "react"
-import { brands } from "../brand-definition"
-import { primaryPalette } from "../color-definition"
-import { bookFont } from "../fonts/book"
-import { headingMargins } from "../heading-margin-definition"
-import { shadowTheme } from "../shadow-definition"
-import { headingFontSize, textFontSize } from "../size-definition"
+import { brands } from "@watheia/app.theme.brand-definition"
+import { primaryPalette } from "@watheia/app.theme.color-definition"
+import { bookFont } from "@watheia/app.theme.fonts.book"
+import { headingMargins } from "@watheia/app.theme.heading-margin-definition"
+import { shadowTheme } from "@watheia/app.theme.shadow-definition"
+import { headingFontSize, textFontSize } from "@watheia/app.theme.size-definition"
 import texts from "./texts.module.scss"
 
+export type ThemeProps = React.HTMLAttributes<HTMLDivElement>
 /**
  * @name ThemeProvider
  * @description
@@ -19,7 +20,7 @@ import texts from "./texts.module.scss"
  * </Theme>
  */
 
-export function Theme(props: React.HTMLAttributes<HTMLDivElement>) {
+export function Theme(props: ThemeProps) {
   return (
     <div
       {...props}

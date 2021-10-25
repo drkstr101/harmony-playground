@@ -1,4 +1,4 @@
-@import "~@teambit/base-ui.theme.colors/colors.module.scss";
+@import "./colors.module.scss";
 
 /**
  * CSS colors and variables for the app.
@@ -6,12 +6,12 @@
 
 .primaryPalette {
   color: $d50;
+
   --bit-text-color: #{$d50};
   --bit-text-color-heavy: #{$d60};
   --bit-text-color-light: #{$d40};
   --bit-text-inactive: #{$d20};
   --bit-text-inactive-heavy: #{$d30};
-
   --bit-border-color: #{$d20};
   --bit-border-color-heavy: #{$d30};
   --bit-border-color-light: #{$d15};
@@ -40,7 +40,6 @@
   --bit-bg-color: #{$w10}; // when resting
   --bit-bg-heavy: #{$w20}; // when hovering, focus
   --bit-bg-heaviest: #{$d10}; // when active (clicked)
-
   --bit-bg-bedrock: #{$w10}; // i.e. <body/> background
   --bit-bg-navigation: #{$w20}; // i.e. <body/> background
   --bit-bg-overlay: #{$w10}; // e.g. button, input, etc
