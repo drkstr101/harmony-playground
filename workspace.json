@@ -2,6 +2,9 @@
   "version": 2,
   "projects": {
     "api": "apps/api",
+    "api-model-schema": "libs/api/model/schema",
+    "layout": "libs/layout",
+    "theme": "libs/theme",
     "www": "apps/www",
     "www-e2e": "apps/www-e2e"
   }

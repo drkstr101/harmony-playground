@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@watheia/api.model.schema": ["libs/api/model/schema/src/index.ts"],
+      "@watheia/layout": ["libs/layout/src/index.ts"],
+      "@watheia/theme": ["libs/theme/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

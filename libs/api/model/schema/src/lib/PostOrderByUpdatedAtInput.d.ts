@@ -1,0 +1,3 @@
+interface PostOrderByUpdatedAtInput {
+  updatedAt: SortOrder
+}
