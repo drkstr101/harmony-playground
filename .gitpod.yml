@@ -1,0 +1,11 @@
+image:
+  file: .gitpod.Dockerfile
+
+# Commands to start on workspace startup
+tasks:
+  - init: yarn install
+    command: yarn nx serve www
+# Ports to expose on workspace startup
+ports:
+  - port: 4200
+    onOpen: open-preview

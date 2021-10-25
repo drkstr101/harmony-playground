@@ -1,0 +1,1 @@
+FROM watheialabs/spectrum-env
