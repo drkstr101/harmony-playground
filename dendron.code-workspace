@@ -2,6 +2,12 @@
   "folders": [
     {
       "path": "vault"
+    },
+    {
+      "path": "backend"
+    },
+    {
+      "path": "frontend"
     }
   ],
   "settings": {
@@ -18,7 +24,10 @@
   },
   "extensions": {
     "recommendations": [
+      "coenraads.bracket-pair-colorizer",
+      "naumovs.color-highlight",
       "dendron.dendron-paste-image",
+      "ms-azuretools.vscode-docker",
       "dendron.dendron-markdown-shortcuts",
       "redhat.vscode-yaml"
     ],

@@ -9,3 +9,21 @@ tasks:
 ports:
   - port: 4200
     onOpen: open-preview
+vscode:
+  extensions:
+    - naumovs.color-highlight
+    - dendron.dendron
+    - dendron.dendron-markdown-links
+    - dendron.dendron-markdown-shortcuts
+    - dendron.dendron-paste-image
+    - ms-azuretools.vscode-docker
+    - dbaeumer.vscode-eslint
+    - manuth.eslint-language-service
+    - github.vscode-pull-request-github
+    - firsttris.vscode-jest-runner
+    - silvenon.mdx
+    - nrwl.angular-console
+    - csstools.postcss
+    - esbenp.prettier-vscode
+    - stylelint.vscode-stylelint
+    - davidanson.vscode-markdownlint
