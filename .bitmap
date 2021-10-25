@@ -9,5 +9,11 @@
  */
 
 {
+    "ui/atoms/button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "components/app/ui/atoms/button"
+    },
     "$schema-version": "14.9.0"
 }

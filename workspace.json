@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "api": "apps/api",
     "www": "apps/www",
     "www-e2e": "apps/www-e2e"
   }

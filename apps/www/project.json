@@ -18,7 +18,8 @@
     "serve": {
       "executor": "@nrwl/gatsby:server",
       "options": {
-        "buildTarget": "www:build"
+        "buildTarget": "www:build",
+        "proxyConfig": "apps/www/proxy.conf.json"
       },
       "configurations": {
         "production": {
